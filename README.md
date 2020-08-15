@@ -53,20 +53,15 @@ For example. Let's say you have a sass folder in the project root with the follo
 
 **Step 1**: Install the package
 
-          pip install create-sass-files
+          pip install make_sass_files
             
 **Step 2**: Run the program
 
-          make_sass_files
+          python3 make_sass_files
           
-
 **That's it!**
 
 
    
 # make_sass_files
-# make_sass_files
-# make_sass_files
-# make_sass_files
-# make_sass_files
-# make_sass_files
+
