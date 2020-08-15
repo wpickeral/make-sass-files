@@ -1,6 +1,6 @@
-# make_sass_files
+# make-sass-files
 
-The make_sass_files script will give you the option to automate the creation of the Sass 7-1 or the Sass 3-1 file structure in your project. The 7-1 model is the recommended architecture for using Sass. The 3-1 model can be used for smaller projects such as single page applications (SPAs) 
+The make-sass-files script will give you the option to automate the creation of the Sass 7-1 or the Sass 3-1 file structure in your project. The 7-1 model is the recommended architecture for using Sass. The 3-1 model can be used for smaller projects such as single page applications (SPAs) 
 
 The script will generate the following files:
 
@@ -53,15 +53,15 @@ For example. Let's say you have a sass folder in the project root with the follo
 
 **Step 1**: Install the package
 
-          pip install make_sass_files
+          pip install make-sass-files
             
 **Step 2**: Run the program
 
-          python3 make_sass_files
+          python make-sass-files
           
 **That's it!**
 
 
    
-# make_sass_files
+# make-sass-files
 
