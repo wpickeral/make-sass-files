@@ -2,6 +2,10 @@
 import os
 import json
 import time
+import os
+
+this_folder = os.path.dirname(os.path.realpath(__file__))
+sass_files_data = os.path.join(this_folder, "data/scss_files.json")
 
 while True:
     choice = input(
@@ -13,7 +17,7 @@ while True:
         except FileExistsError:
             print("\nThe sass folder already exists.\n\nThe following files have been added to the sass directory if they did not already exist.\n")
 
-            with open('scss_files.json') as json_file:
+            with open(sass_files_data) as json_file:
                 data = json.load(json_file)
 
                 for e in data["abstracts"]:
@@ -41,7 +45,7 @@ while True:
             # make the main.scss file if it does not exist
             open('sass/main.scss', "a")
 
-            with open('scss_files.json') as json_file:
+            with open(sass_files_data) as json_file:
                 data = json.load(json_file)
 
                 # make the sub directories
