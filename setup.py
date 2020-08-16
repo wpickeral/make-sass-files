@@ -3,9 +3,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='make_sass_files',
-    version='1.1.5',
+    version='1.1.6',
     author="William L. Pickeral",
-    scripts=["make-sass-files"],
     author_email="willpickeral@gmail.com",
     description="A simple program to implement Sass 7-1 or 3-1 architecture",
     long_description=long_description,

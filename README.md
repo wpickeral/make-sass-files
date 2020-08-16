@@ -57,7 +57,7 @@ For example. Let's say you have a sass folder in the project root with the follo
             
 **Step 2**: Run the program
 
-          python make-sass-files
+          python3 -m make-sass-files
           
 **That's it!**
 
